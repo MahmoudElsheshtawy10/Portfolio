@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Mahmoud Adel</title>
+    <meta name="description" content="Mahmoud Adel — Backend .NET Developer specializing in ASP.NET Core MVC, Entity Framework Core, SQL Server, and REST APIs." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+    <div id="cursor-glow"></div>
+    <div id="scroll-progress"></div>
+
+    <div id="loader">
+        <div class="loader-content">
+            <span class="loader-text">MAHMOUD ADEL</span>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">MA<span>.</span></a>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-right">
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="hamburger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Animated Background Particles -->
+        <div class="bg-particles">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+        </div>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content hidden-fade-up">
+                <p class="greeting">Hi, my name is</p>
+                <h1 class="name">Mahmoud Adel.</h1>
+                <h2 class="title type-wrap">I build <span class="typing-text"></span></h2>
+                <p class="description">
+                    Backend .NET Developer with hands-on experience building enterprise web applications, scalable backend systems, and solving real-world business problems.
+                </p>
+                <div class="hero-cta">
+                    <a href="cv/Mahmoud_Adel_CV.pdf" class="btn btn-primary magnetic" download>
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                    <a href="https://github.com/MahmoudElsheshtawy10" target="_blank" class="btn btn-outline magnetic">
+                        <i class="fab fa-github"></i> View GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/mahmoud-adel-38b3762a6/" target="_blank" class="btn btn-outline magnetic">
+                        <i class="fab fa-linkedin-in"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+            <div class="hero-graphics hidden-fade-left">
+                <div class="graphic-cube"></div>
+                <div class="graphic-sphere"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2 class="section-title hidden-fade-up">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text hidden-fade-right">
+                    <p>I am a passionate <strong>Backend .NET Developer</strong> pursuing a Bachelor of Computer Science at Misr Higher Institute for Commerce and Computers.</p>
+                    <p>I specialize in building robust enterprise web applications using <strong>ASP.NET Core MVC, Entity Framework Core, SQL Server, and REST APIs</strong>. I focus on clean architecture, scalable systems, and optimizing database designs to ensure high performance and maintainability.</p>
+                </div>
+                <div class="about-stats hidden-fade-left">
+                    <div class="stat-card tilt-card">
+                        <i class="fas fa-code"></i>
+                        <h3 class="counter" data-target="3">0</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-card tilt-card">
+                        <i class="fas fa-brain"></i>
+                        <h3 class="counter" data-target="20">0</h3>
+                        <p>Technologies</p>
+                    </div>
+                    <div class="stat-card tilt-card">
+                        <i class="fas fa-clock"></i>
+                        <h3 class="counter" data-target="2">0</h3>
+                        <p>Years Learning</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2 class="section-title hidden-fade-up">Technical Skills</h2>
+            <div class="skills-container">
+                <!-- Backend -->
+                <div class="skill-category hidden-fade-up" style="transition-delay: 0.1s">
+                    <div class="skill-category-header">
+                        <h3><i class="fas fa-server"></i> Backend &amp; Frameworks</h3>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item highlight"><i class="fas fa-check"></i> <span>C#</span></div>
+                        <div class="skill-item highlight"><i class="fas fa-check"></i> <span>ASP.NET Core MVC</span></div>
+                        <div class="skill-item highlight"><i class="fas fa-check"></i> <span>ASP.NET Core Web API</span></div>
+                        <div class="skill-item highlight"><i class="fas fa-check"></i> <span>Entity Framework Core</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>LINQ</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>Java</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>Python</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>Node.js</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>Express.js</span></div>
+                    </div>
+                </div>
+                <!-- Frontend -->
+                <div class="skill-category hidden-fade-up" style="transition-delay: 0.2s">
+                    <div class="skill-category-header">
+                        <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>HTML5</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>CSS3</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>Bootstrap</span></div>
+                        <div class="skill-item highlight"><i class="fas fa-check"></i> <span>JavaScript</span></div>
+                    </div>
+                </div>
+                <!-- Databases -->
+                <div class="skill-category hidden-fade-up" style="transition-delay: 0.3s">
+                    <div class="skill-category-header">
+                        <h3><i class="fas fa-database"></i> Databases</h3>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item highlight"><i class="fas fa-check"></i> <span>SQL Server</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>PostgreSQL</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>MySQL</span></div>
+                    </div>
+                </div>
+
+                <!-- Cloud & Deployment -->
+                <div class="skill-category hidden-fade-up" style="transition-delay: 0.4s">
+                    <div class="skill-category-header">
+                        <h3><i class="fas fa-cloud"></i> Cloud &amp; Deployment</h3>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>Vercel</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>Render</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>Railway</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>MonsterASP.NET</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>GitHub Pages</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>IIS Deployment</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>REST API Deployment</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>Environment Variables</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>Production Hosting</span></div>
+                    </div>
+                </div>
+
+                <!-- Tools & Practices -->
+                <div class="skill-category hidden-fade-up" style="transition-delay: 0.5s">
+                    <div class="skill-category-header">
+                        <h3><i class="fas fa-tools"></i> Tools &amp; Concepts</h3>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item highlight"><i class="fas fa-check"></i> <span>Git</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>GitHub</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>Visual Studio</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>Postman</span></div>
+                        <div class="skill-item highlight"><i class="fas fa-check"></i> <span>REST APIs</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>Clean Architecture</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>SOLID Principles</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>OOP</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>Data Structures</span></div>
+                        <div class="skill-item"><i class="fas fa-check"></i> <span>Authentication &amp; Authorization</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2 class="section-title hidden-fade-up">Featured Projects</h2>
+
+            <div class="project-filters hidden-fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="full-stack">Full Stack</button>
+                <button class="filter-btn" data-filter="web">Web App</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card tilt-card hidden-fade-up project-item full-stack web">
+                    <div class="project-image">
+                        <img src="images/smart-inventory-dashboard.png" alt="Smart Inventory System" loading="lazy" decoding="async" class="project-img" />
+                        <div class="project-overlay">
+                            <a href="https://github.com/MahmoudElsheshtawy10" target="_blank" class="btn btn-sm btn-primary"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Smart Inventory System</h3>
+                            <span class="badge">Completed</span>
+                        </div>
+                        <p>A complete inventory management system with authentication, dashboards, smart reorder suggestions, suppliers, products, categories, reporting, export features, dark mode, multilingual support and responsive UI.</p>
+                        <div class="tech-stack">
+                            <span>ASP.NET Core MVC</span><span>C#</span><span>EF Core</span><span>SQL Server</span><span>Bootstrap</span><span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card tilt-card hidden-fade-up project-item full-stack web">
+                    <div class="project-image">
+                        <img src="images/hightech-home.png" alt="HighTech E-commerce Platform" loading="lazy" decoding="async" class="project-img" />
+                        <div class="project-overlay">
+                            <a href="https://github.com/MahmoudElsheshtawy10" target="_blank" class="btn btn-sm btn-primary"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>HighTech E-commerce Platform</h3>
+                            <span class="badge">Completed</span>
+                        </div>
+                        <p>Complete online electronics store with authentication, shopping cart, categories, orders and admin dashboard.</p>
+                        <div class="tech-stack">
+                            <span>Node.js</span><span>Express.js</span><span>PostgreSQL</span><span>Firebase</span><span>REST API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card tilt-card hidden-fade-up project-item web">
+                    <div class="project-image">
+                        <img src="images/cinema-home.png" alt="Cinema Management System" loading="lazy" decoding="async" class="project-img" />
+                        <div class="project-overlay">
+                            <a href="https://github.com/MahmoudElsheshtawy10" target="_blank" class="btn btn-sm btn-primary"><i class="fab fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Cinema Management System</h3>
+                            <span class="badge in-progress">In Progress</span>
+                        </div>
+                        <p>Cinema reservation and movie management system including booking workflow, movie schedules, seat booking and administration dashboard.</p>
+                        <div class="tech-stack">
+                            <span>ASP.NET Core MVC</span><span>SQL Server</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline (Experience & Education) -->
+        <section id="experience" class="timeline-section">
+            <h2 class="section-title hidden-fade-up">Experience &amp; Education</h2>
+
+            <div class="timeline">
+                <div class="timeline-item hidden-fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Dec 2025 – July 2026</span>
+                        <h3>Backend .NET Trainee</h3>
+                        <h4>DEPI (Digital Egypt Pioneers Initiative)</h4>
+                        <p>Built enterprise web applications using ASP.NET Core MVC, EF Core, and SQL Server. Implemented Identity, designed REST APIs, and applied Clean Architecture.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item hidden-fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Aug 2025 – Sep 2025</span>
+                        <h3>Full Stack PHP Intern</h3>
+                        <h4>NTI (National Telecommunication Institute)</h4>
+                        <p>Developed dynamic web applications using PHP and MySQL. Implemented backend logic, CRUD operations, and database integration.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item hidden-fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jul 2024 – Sep 2024</span>
+                        <h3>Full Stack .NET Intern</h3>
+                        <h4>Mansoura University Training Program</h4>
+                        <p>Built web applications using ASP.NET, C#, and SQL Server. Implemented CRUD, authentication basics, and API integration.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item hidden-fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content education">
+                        <span class="timeline-date"></span>
+                        <h3>Bachelor of Computer Science</h3>
+                        <h4>Misr Higher Institute for Commerce and Computers</h4>
+                        <p>Focused on Data Structures, Algorithms, Software Engineering, and Database Design.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2 class="section-title hidden-fade-up">Get In Touch</h2>
+            <div class="contact-card hidden-fade-up glass-panel">
+                <div class="contact-header">
+                    <h3>Let's Build Something Together</h3>
+                    <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                </div>
+
+                <div class="contact-methods">
+                    <div class="contact-method magnetic">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-details">
+                            <span>Email</span>
+                            <a href="mailto:mahmoudadeldedv26@gmail.com" id="email-text">mahmoudadeldedv26@gmail.com</a>
+                        </div>
+                        <button class="copy-btn" id="copy-email"><i class="far fa-copy"></i></button>
+                    </div>
+
+                    <div class="contact-method magnetic">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="contact-details">
+                            <span>Phone</span>
+                            <a href="tel:01025424954">01025424954</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-method magnetic">
+                        <i class="fab fa-linkedin-in"></i>
+                        <div class="contact-details">
+                            <span>LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/mahmoud-adel-38b3762a6/" target="_blank">Mahmoud Adel</a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="mailto:mahmoudadeldedv26@gmail.com" class="btn btn-primary btn-large magnetic" style="margin-top: 2rem;">Say Hello</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">MAHMOUD ADEL</div>
+            <p>Designed and Built by Mahmoud Adel</p>
+            <div class="footer-socials">
+                <a href="https://github.com/MahmoudElsheshtawy10" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mahmoud-adel-38b3762a6/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:mahmoudadeldedv26@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <button id="back-to-top" aria-label="Back to top">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <script src="js/site.js"></script>
+</body>
+</html>
